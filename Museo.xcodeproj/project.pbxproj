@@ -1,0 +1,1085 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B76339E0BAF39EC6165DB40 /* Pods_MuseoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9198B72372344F6EFC5B2292 /* Pods_MuseoTests.framework */; };
+		AB4C3B07207CC32500A2346E /* MuseumObjectInfoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B06207CC32500A2346E /* MuseumObjectInfoServiceProtocol.swift */; };
+		AB4C3B09207CC55200A2346E /* MuseumObjectInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B08207CC55200A2346E /* MuseumObjectInfoService.swift */; };
+		AB4C3B0A207CC55200A2346E /* MuseumObjectInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B08207CC55200A2346E /* MuseumObjectInfoService.swift */; };
+		AB4C3B0B207CC55200A2346E /* MuseumObjectInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B08207CC55200A2346E /* MuseumObjectInfoService.swift */; };
+		AB4C3B0E207CC7C900A2346E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B0D207CC7C900A2346E /* APIConfiguration.swift */; };
+		AB4C3B0F207CC7C900A2346E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B0D207CC7C900A2346E /* APIConfiguration.swift */; };
+		AB4C3B10207CC7C900A2346E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B0D207CC7C900A2346E /* APIConfiguration.swift */; };
+		AB4C3B17207CF1BB00A2346E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B16207CF1BB00A2346E /* NetworkService.swift */; };
+		AB4C3B18207CF1BB00A2346E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B16207CF1BB00A2346E /* NetworkService.swift */; };
+		AB4C3B19207CF1BB00A2346E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B16207CF1BB00A2346E /* NetworkService.swift */; };
+		AB4C3B1B207CF22900A2346E /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B1A207CF22900A2346E /* NetworkServiceProtocol.swift */; };
+		AB4C3B1C207CF22900A2346E /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B1A207CF22900A2346E /* NetworkServiceProtocol.swift */; };
+		AB4C3B1D207CF22900A2346E /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B1A207CF22900A2346E /* NetworkServiceProtocol.swift */; };
+		AB4C3B1F207DE89700A2346E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B1E207DE89700A2346E /* AppError.swift */; };
+		AB4C3B20207DE89700A2346E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B1E207DE89700A2346E /* AppError.swift */; };
+		AB4C3B21207DE89700A2346E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B1E207DE89700A2346E /* AppError.swift */; };
+		AB4C3B28207E1A6100A2346E /* 18453305.json in Resources */ = {isa = PBXBuildFile; fileRef = AB4C3B27207E1A6100A2346E /* 18453305.json */; };
+		AB4C3B29207E1B7F00A2346E /* MuseumObjectInfoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B06207CC32500A2346E /* MuseumObjectInfoServiceProtocol.swift */; };
+		AB4C3B2A207E1B8000A2346E /* MuseumObjectInfoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B06207CC32500A2346E /* MuseumObjectInfoServiceProtocol.swift */; };
+		AB4C3B2B207E1B8900A2346E /* ObjectInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB2AE3207B5B3600272192 /* ObjectInfoResponse.swift */; };
+		AB4C3B2C207E1B8900A2346E /* ObjectInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB2AE3207B5B3600272192 /* ObjectInfoResponse.swift */; };
+		AB4C3B34207E3D1F00A2346E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B33207E3D1F00A2346E /* HomeViewController.swift */; };
+		AB4C3B35207E3D1F00A2346E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B33207E3D1F00A2346E /* HomeViewController.swift */; };
+		AB4C3B3C207F43DC00A2346E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B3B207F43DC00A2346E /* HomeViewModel.swift */; };
+		AB4C3B3D207F43DC00A2346E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B3B207F43DC00A2346E /* HomeViewModel.swift */; };
+		AB4C3B3E207F43DC00A2346E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B3B207F43DC00A2346E /* HomeViewModel.swift */; };
+		AB4C3B49207F4EB700A2346E /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B48207F4EB700A2346E /* ImageInfo.swift */; };
+		AB4C3B4A207F4EB700A2346E /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B48207F4EB700A2346E /* ImageInfo.swift */; };
+		AB4C3B4B207F4EB700A2346E /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C3B48207F4EB700A2346E /* ImageInfo.swift */; };
+		AB4C3B4D207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4C3B4C207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg */; };
+		AB4C3B4E207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4C3B4C207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg */; };
+		AB4C3B4F207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4C3B4C207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg */; };
+		AB4C3B51208095D500A2346E /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = AB4C3B50208095D500A2346E /* empty.json */; };
+		AB4C3B52208095D500A2346E /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = AB4C3B50208095D500A2346E /* empty.json */; };
+		AB4C3B53208095D500A2346E /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = AB4C3B50208095D500A2346E /* empty.json */; };
+		AB58E41920761F8D00F272E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E41820761F8D00F272E7 /* AppDelegate.swift */; };
+		AB58E41B20761F8D00F272E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E41A20761F8D00F272E7 /* ViewController.swift */; };
+		AB58E41E20761F8D00F272E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58E41C20761F8D00F272E7 /* Main.storyboard */; };
+		AB58E42120761F8D00F272E7 /* Museo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB58E41F20761F8D00F272E7 /* Museo.xcdatamodeld */; };
+		AB58E42320761F8E00F272E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB58E42220761F8E00F272E7 /* Assets.xcassets */; };
+		AB58E42620761F8E00F272E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58E42420761F8E00F272E7 /* LaunchScreen.storyboard */; };
+		AB58E43120761F8E00F272E7 /* MuseoObjectServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E43020761F8E00F272E7 /* MuseoObjectServiceTests.swift */; };
+		AB58E43C20761F8E00F272E7 /* MuseoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E43B20761F8E00F272E7 /* MuseoUITests.swift */; };
+		AB58E475207644C600F272E7 /* ArtPeriod+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E46F207644C600F272E7 /* ArtPeriod+CoreDataClass.swift */; };
+		AB58E476207644C600F272E7 /* ArtPeriod+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E46F207644C600F272E7 /* ArtPeriod+CoreDataClass.swift */; };
+		AB58E477207644C600F272E7 /* ArtPeriod+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E46F207644C600F272E7 /* ArtPeriod+CoreDataClass.swift */; };
+		AB58E478207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E470207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift */; };
+		AB58E479207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E470207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift */; };
+		AB58E47A207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E470207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift */; };
+		AB58E47B207644C600F272E7 /* MuseumObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E471207644C600F272E7 /* MuseumObject+CoreDataClass.swift */; };
+		AB58E47C207644C600F272E7 /* MuseumObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E471207644C600F272E7 /* MuseumObject+CoreDataClass.swift */; };
+		AB58E47D207644C600F272E7 /* MuseumObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E471207644C600F272E7 /* MuseumObject+CoreDataClass.swift */; };
+		AB58E47E207644C600F272E7 /* MuseumObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E472207644C600F272E7 /* MuseumObject+CoreDataProperties.swift */; };
+		AB58E47F207644C600F272E7 /* MuseumObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E472207644C600F272E7 /* MuseumObject+CoreDataProperties.swift */; };
+		AB58E480207644C600F272E7 /* MuseumObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E472207644C600F272E7 /* MuseumObject+CoreDataProperties.swift */; };
+		AB58E481207644C600F272E7 /* ObjectType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E473207644C600F272E7 /* ObjectType+CoreDataClass.swift */; };
+		AB58E482207644C600F272E7 /* ObjectType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E473207644C600F272E7 /* ObjectType+CoreDataClass.swift */; };
+		AB58E483207644C600F272E7 /* ObjectType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E473207644C600F272E7 /* ObjectType+CoreDataClass.swift */; };
+		AB58E484207644C600F272E7 /* ObjectType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E474207644C600F272E7 /* ObjectType+CoreDataProperties.swift */; };
+		AB58E485207644C600F272E7 /* ObjectType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E474207644C600F272E7 /* ObjectType+CoreDataProperties.swift */; };
+		AB58E486207644C600F272E7 /* ObjectType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58E474207644C600F272E7 /* ObjectType+CoreDataProperties.swift */; };
+		ABEB2ADA207662E600272192 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABEB2AD9207662E500272192 /* GoogleService-Info.plist */; };
+		ABEB2ADB207662E600272192 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABEB2AD9207662E500272192 /* GoogleService-Info.plist */; };
+		ABEB2ADC207662E600272192 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABEB2AD9207662E500272192 /* GoogleService-Info.plist */; };
+		ABEB2AE4207B5B3600272192 /* ObjectInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB2AE3207B5B3600272192 /* ObjectInfoResponse.swift */; };
+		C09BF6C991C6A59503215BA0 /* Pods_Museo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C3E1120BE4D145850C5675 /* Pods_Museo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB58E42D20761F8E00F272E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB58E40D20761F8D00F272E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB58E41420761F8D00F272E7;
+			remoteInfo = Museo;
+		};
+		AB58E43820761F8E00F272E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB58E40D20761F8D00F272E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB58E41420761F8D00F272E7;
+			remoteInfo = Museo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2CE12CAC9EE18B0E806ED3 /* Pods-Museo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Museo/Pods-Museo.debug.xcconfig"; sourceTree = "<group>"; };
+		34C3E1120BE4D145850C5675 /* Pods_Museo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Museo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFDD56BC35F898850AF2227 /* Pods-MuseoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55D0505EC3F1A18E50CA4DB2 /* Pods-MuseoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests.release.xcconfig"; sourceTree = "<group>"; };
+		890EEC4BBEF40EE80190C2C5 /* Pods-Museo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Museo/Pods-Museo.release.xcconfig"; sourceTree = "<group>"; };
+		9198B72372344F6EFC5B2292 /* Pods_MuseoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4C3B06207CC32500A2346E /* MuseumObjectInfoServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumObjectInfoServiceProtocol.swift; sourceTree = "<group>"; };
+		AB4C3B08207CC55200A2346E /* MuseumObjectInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumObjectInfoService.swift; sourceTree = "<group>"; };
+		AB4C3B0D207CC7C900A2346E /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		AB4C3B16207CF1BB00A2346E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AB4C3B1A207CF22900A2346E /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		AB4C3B1E207DE89700A2346E /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		AB4C3B27207E1A6100A2346E /* 18453305.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 18453305.json; sourceTree = "<group>"; };
+		AB4C3B33207E3D1F00A2346E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB4C3B3B207F43DC00A2346E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AB4C3B48207F4EB700A2346E /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		AB4C3B4C207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 265247_088a5d562a581c7d_b.jpg; sourceTree = "<group>"; };
+		AB4C3B50208095D500A2346E /* empty.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
+		AB58E41520761F8D00F272E7 /* Museo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Museo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58E41820761F8D00F272E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB58E41A20761F8D00F272E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB58E41D20761F8D00F272E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB58E42020761F8D00F272E7 /* Museo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Museo.xcdatamodel; sourceTree = "<group>"; };
+		AB58E42220761F8E00F272E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB58E42520761F8E00F272E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB58E42720761F8E00F272E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58E42C20761F8E00F272E7 /* MuseoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58E43020761F8E00F272E7 /* MuseoObjectServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoObjectServiceTests.swift; sourceTree = "<group>"; };
+		AB58E43220761F8E00F272E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58E43720761F8E00F272E7 /* MuseoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58E43B20761F8E00F272E7 /* MuseoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoUITests.swift; sourceTree = "<group>"; };
+		AB58E43D20761F8E00F272E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58E46F207644C600F272E7 /* ArtPeriod+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtPeriod+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AB58E470207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtPeriod+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AB58E471207644C600F272E7 /* MuseumObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MuseumObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AB58E472207644C600F272E7 /* MuseumObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MuseumObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AB58E473207644C600F272E7 /* ObjectType+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObjectType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AB58E474207644C600F272E7 /* ObjectType+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObjectType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ABEB2AD9207662E500272192 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABEB2AE3207B5B3600272192 /* ObjectInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectInfoResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB58E41220761F8D00F272E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09BF6C991C6A59503215BA0 /* Pods_Museo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58E42920761F8E00F272E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B76339E0BAF39EC6165DB40 /* Pods_MuseoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58E43420761F8E00F272E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084B221E6C0CD9B7C75E6D57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A2CE12CAC9EE18B0E806ED3 /* Pods-Museo.debug.xcconfig */,
+				890EEC4BBEF40EE80190C2C5 /* Pods-Museo.release.xcconfig */,
+				3AFDD56BC35F898850AF2227 /* Pods-MuseoTests.debug.xcconfig */,
+				55D0505EC3F1A18E50CA4DB2 /* Pods-MuseoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB4C3B04207CC30300A2346E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B43207F46DB00A2346E /* Protocols */,
+				AB4C3B16207CF1BB00A2346E /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AB4C3B05207CC30A00A2346E /* MusemObject */ = {
+			isa = PBXGroup;
+			children = (
+				ABEB2AE2207B5B0900272192 /* Mappable */,
+				AB4C3B2E207E309B00A2346E /* Service */,
+			);
+			path = MusemObject;
+			sourceTree = "<group>";
+		};
+		AB4C3B0C207CC7BC00A2346E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B0D207CC7C900A2346E /* APIConfiguration.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		AB4C3B11207CEC8100A2346E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B1E207DE89700A2346E /* AppError.swift */,
+				AB4C3B48207F4EB700A2346E /* ImageInfo.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AB4C3B22207E19FE00A2346E /* files */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B4C207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg */,
+				AB4C3B27207E1A6100A2346E /* 18453305.json */,
+				AB4C3B50208095D500A2346E /* empty.json */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		AB4C3B2D207E308B00A2346E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B05207CC30A00A2346E /* MusemObject */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AB4C3B2E207E309B00A2346E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B06207CC32500A2346E /* MuseumObjectInfoServiceProtocol.swift */,
+				AB4C3B08207CC55200A2346E /* MuseumObjectInfoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AB4C3B2F207E30B100A2346E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B0C207CC7BC00A2346E /* Config */,
+				AB4C3B11207CEC8100A2346E /* Util */,
+				AB4C3B04207CC30300A2346E /* Services */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AB4C3B37207F437600A2346E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B38207F438A00A2346E /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AB4C3B38207F438A00A2346E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B3A207F43BF00A2346E /* ViewModels */,
+				AB4C3B39207F439100A2346E /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AB4C3B39207F439100A2346E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B33207E3D1F00A2346E /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB4C3B3A207F43BF00A2346E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B3B207F43DC00A2346E /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AB4C3B43207F46DB00A2346E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B1A207CF22900A2346E /* NetworkServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AB58E40C20761F8D00F272E7 = {
+			isa = PBXGroup;
+			children = (
+				ABEB2AD9207662E500272192 /* GoogleService-Info.plist */,
+				AB58E41720761F8D00F272E7 /* Museo */,
+				AB58E42F20761F8E00F272E7 /* MuseoTests */,
+				AB58E43A20761F8E00F272E7 /* MuseoUITests */,
+				AB58E41620761F8D00F272E7 /* Products */,
+				084B221E6C0CD9B7C75E6D57 /* Pods */,
+				C60DFA9E4FCFF7737F08188D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB58E41620761F8D00F272E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB58E41520761F8D00F272E7 /* Museo.app */,
+				AB58E42C20761F8E00F272E7 /* MuseoTests.xctest */,
+				AB58E43720761F8E00F272E7 /* MuseoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB58E41720761F8D00F272E7 /* Museo */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B37207F437600A2346E /* Screens */,
+				AB58E48C2076457400F272E7 /* CoreData */,
+				AB4C3B2F207E30B100A2346E /* Common */,
+				AB4C3B2D207E308B00A2346E /* Modules */,
+				AB58E41820761F8D00F272E7 /* AppDelegate.swift */,
+				AB58E41A20761F8D00F272E7 /* ViewController.swift */,
+				AB58E41C20761F8D00F272E7 /* Main.storyboard */,
+				AB58E42220761F8E00F272E7 /* Assets.xcassets */,
+				AB58E42420761F8E00F272E7 /* LaunchScreen.storyboard */,
+				AB58E42720761F8E00F272E7 /* Info.plist */,
+			);
+			path = Museo;
+			sourceTree = "<group>";
+		};
+		AB58E42F20761F8E00F272E7 /* MuseoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C3B22207E19FE00A2346E /* files */,
+				AB58E43020761F8E00F272E7 /* MuseoObjectServiceTests.swift */,
+				AB58E43220761F8E00F272E7 /* Info.plist */,
+			);
+			path = MuseoTests;
+			sourceTree = "<group>";
+		};
+		AB58E43A20761F8E00F272E7 /* MuseoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB58E43B20761F8E00F272E7 /* MuseoUITests.swift */,
+				AB58E43D20761F8E00F272E7 /* Info.plist */,
+			);
+			path = MuseoUITests;
+			sourceTree = "<group>";
+		};
+		AB58E48C2076457400F272E7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AB58E48D2076458500F272E7 /* Entities */,
+				AB58E41F20761F8D00F272E7 /* Museo.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		AB58E48D2076458500F272E7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AB58E46F207644C600F272E7 /* ArtPeriod+CoreDataClass.swift */,
+				AB58E470207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift */,
+				AB58E471207644C600F272E7 /* MuseumObject+CoreDataClass.swift */,
+				AB58E472207644C600F272E7 /* MuseumObject+CoreDataProperties.swift */,
+				AB58E473207644C600F272E7 /* ObjectType+CoreDataClass.swift */,
+				AB58E474207644C600F272E7 /* ObjectType+CoreDataProperties.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		ABEB2AE2207B5B0900272192 /* Mappable */ = {
+			isa = PBXGroup;
+			children = (
+				ABEB2AE3207B5B3600272192 /* ObjectInfoResponse.swift */,
+			);
+			path = Mappable;
+			sourceTree = "<group>";
+		};
+		C60DFA9E4FCFF7737F08188D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34C3E1120BE4D145850C5675 /* Pods_Museo.framework */,
+				9198B72372344F6EFC5B2292 /* Pods_MuseoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB58E41420761F8D00F272E7 /* Museo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58E44020761F8E00F272E7 /* Build configuration list for PBXNativeTarget "Museo" */;
+			buildPhases = (
+				5153F5FA31C14608260233D7 /* [CP] Check Pods Manifest.lock */,
+				AB58E41120761F8D00F272E7 /* Sources */,
+				AB58E41220761F8D00F272E7 /* Frameworks */,
+				AB58E41320761F8D00F272E7 /* Resources */,
+				84F8EEB3B3BE4035DB6C1A11 /* [CP] Embed Pods Frameworks */,
+				5AD89858906894DD538C1B8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Museo;
+			productName = Museo;
+			productReference = AB58E41520761F8D00F272E7 /* Museo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB58E42B20761F8E00F272E7 /* MuseoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58E44320761F8E00F272E7 /* Build configuration list for PBXNativeTarget "MuseoTests" */;
+			buildPhases = (
+				9593D8DC20922FB844757C81 /* [CP] Check Pods Manifest.lock */,
+				AB58E42820761F8E00F272E7 /* Sources */,
+				AB58E42920761F8E00F272E7 /* Frameworks */,
+				AB58E42A20761F8E00F272E7 /* Resources */,
+				36081F9787FD9D1F8A9A82CC /* [CP] Embed Pods Frameworks */,
+				1AE510923F92C5DD3C0E67AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB58E42E20761F8E00F272E7 /* PBXTargetDependency */,
+			);
+			name = MuseoTests;
+			productName = MuseoTests;
+			productReference = AB58E42C20761F8E00F272E7 /* MuseoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB58E43620761F8E00F272E7 /* MuseoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58E44620761F8E00F272E7 /* Build configuration list for PBXNativeTarget "MuseoUITests" */;
+			buildPhases = (
+				AB58E43320761F8E00F272E7 /* Sources */,
+				AB58E43420761F8E00F272E7 /* Frameworks */,
+				AB58E43520761F8E00F272E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB58E43920761F8E00F272E7 /* PBXTargetDependency */,
+			);
+			name = MuseoUITests;
+			productName = MuseoUITests;
+			productReference = AB58E43720761F8E00F272E7 /* MuseoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB58E40D20761F8D00F272E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Victor Ciprian Burca";
+				TargetAttributes = {
+					AB58E41420761F8D00F272E7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AB58E42B20761F8E00F272E7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AB58E41420761F8D00F272E7;
+					};
+					AB58E43620761F8E00F272E7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AB58E41420761F8D00F272E7;
+					};
+				};
+			};
+			buildConfigurationList = AB58E41020761F8D00F272E7 /* Build configuration list for PBXProject "Museo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB58E40C20761F8D00F272E7;
+			productRefGroup = AB58E41620761F8D00F272E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB58E41420761F8D00F272E7 /* Museo */,
+				AB58E42B20761F8E00F272E7 /* MuseoTests */,
+				AB58E43620761F8E00F272E7 /* MuseoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB58E41320761F8D00F272E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58E42620761F8E00F272E7 /* LaunchScreen.storyboard in Resources */,
+				AB4C3B51208095D500A2346E /* empty.json in Resources */,
+				ABEB2ADA207662E600272192 /* GoogleService-Info.plist in Resources */,
+				AB58E42320761F8E00F272E7 /* Assets.xcassets in Resources */,
+				AB4C3B4D207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg in Resources */,
+				AB58E41E20761F8D00F272E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58E42A20761F8E00F272E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4C3B28207E1A6100A2346E /* 18453305.json in Resources */,
+				AB4C3B52208095D500A2346E /* empty.json in Resources */,
+				AB4C3B4E207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg in Resources */,
+				ABEB2ADB207662E600272192 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58E43520761F8E00F272E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4C3B4F207F73E100A2346E /* 265247_088a5d562a581c7d_b.jpg in Resources */,
+				AB4C3B53208095D500A2346E /* empty.json in Resources */,
+				ABEB2ADC207662E600272192 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AE510923F92C5DD3C0E67AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36081F9787FD9D1F8A9A82CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5153F5FA31C14608260233D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Museo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD89858906894DD538C1B8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Museo/Pods-Museo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F8EEB3B3BE4035DB6C1A11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Museo/Pods-Museo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Museo/Pods-Museo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9593D8DC20922FB844757C81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuseoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB58E41120761F8D00F272E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4C3B3C207F43DC00A2346E /* HomeViewModel.swift in Sources */,
+				AB58E481207644C600F272E7 /* ObjectType+CoreDataClass.swift in Sources */,
+				AB58E47E207644C600F272E7 /* MuseumObject+CoreDataProperties.swift in Sources */,
+				AB4C3B49207F4EB700A2346E /* ImageInfo.swift in Sources */,
+				AB58E42120761F8D00F272E7 /* Museo.xcdatamodeld in Sources */,
+				ABEB2AE4207B5B3600272192 /* ObjectInfoResponse.swift in Sources */,
+				AB4C3B1F207DE89700A2346E /* AppError.swift in Sources */,
+				AB4C3B34207E3D1F00A2346E /* HomeViewController.swift in Sources */,
+				AB4C3B1B207CF22900A2346E /* NetworkServiceProtocol.swift in Sources */,
+				AB4C3B09207CC55200A2346E /* MuseumObjectInfoService.swift in Sources */,
+				AB4C3B07207CC32500A2346E /* MuseumObjectInfoServiceProtocol.swift in Sources */,
+				AB58E41B20761F8D00F272E7 /* ViewController.swift in Sources */,
+				AB58E475207644C600F272E7 /* ArtPeriod+CoreDataClass.swift in Sources */,
+				AB58E484207644C600F272E7 /* ObjectType+CoreDataProperties.swift in Sources */,
+				AB4C3B17207CF1BB00A2346E /* NetworkService.swift in Sources */,
+				AB4C3B0E207CC7C900A2346E /* APIConfiguration.swift in Sources */,
+				AB58E478207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift in Sources */,
+				AB58E47B207644C600F272E7 /* MuseumObject+CoreDataClass.swift in Sources */,
+				AB58E41920761F8D00F272E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58E42820761F8E00F272E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4C3B0A207CC55200A2346E /* MuseumObjectInfoService.swift in Sources */,
+				AB58E47C207644C600F272E7 /* MuseumObject+CoreDataClass.swift in Sources */,
+				AB58E47F207644C600F272E7 /* MuseumObject+CoreDataProperties.swift in Sources */,
+				AB4C3B4A207F4EB700A2346E /* ImageInfo.swift in Sources */,
+				AB4C3B18207CF1BB00A2346E /* NetworkService.swift in Sources */,
+				AB4C3B1C207CF22900A2346E /* NetworkServiceProtocol.swift in Sources */,
+				AB58E476207644C600F272E7 /* ArtPeriod+CoreDataClass.swift in Sources */,
+				AB4C3B0F207CC7C900A2346E /* APIConfiguration.swift in Sources */,
+				AB58E485207644C600F272E7 /* ObjectType+CoreDataProperties.swift in Sources */,
+				AB4C3B29207E1B7F00A2346E /* MuseumObjectInfoServiceProtocol.swift in Sources */,
+				AB4C3B20207DE89700A2346E /* AppError.swift in Sources */,
+				AB58E43120761F8E00F272E7 /* MuseoObjectServiceTests.swift in Sources */,
+				AB58E482207644C600F272E7 /* ObjectType+CoreDataClass.swift in Sources */,
+				AB58E479207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift in Sources */,
+				AB4C3B3D207F43DC00A2346E /* HomeViewModel.swift in Sources */,
+				AB4C3B2B207E1B8900A2346E /* ObjectInfoResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58E43320761F8E00F272E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4C3B0B207CC55200A2346E /* MuseumObjectInfoService.swift in Sources */,
+				AB58E47D207644C600F272E7 /* MuseumObject+CoreDataClass.swift in Sources */,
+				AB58E480207644C600F272E7 /* MuseumObject+CoreDataProperties.swift in Sources */,
+				AB4C3B3E207F43DC00A2346E /* HomeViewModel.swift in Sources */,
+				AB4C3B19207CF1BB00A2346E /* NetworkService.swift in Sources */,
+				AB4C3B1D207CF22900A2346E /* NetworkServiceProtocol.swift in Sources */,
+				AB4C3B35207E3D1F00A2346E /* HomeViewController.swift in Sources */,
+				AB58E477207644C600F272E7 /* ArtPeriod+CoreDataClass.swift in Sources */,
+				AB4C3B10207CC7C900A2346E /* APIConfiguration.swift in Sources */,
+				AB58E486207644C600F272E7 /* ObjectType+CoreDataProperties.swift in Sources */,
+				AB4C3B2A207E1B8000A2346E /* MuseumObjectInfoServiceProtocol.swift in Sources */,
+				AB4C3B4B207F4EB700A2346E /* ImageInfo.swift in Sources */,
+				AB4C3B21207DE89700A2346E /* AppError.swift in Sources */,
+				AB58E43C20761F8E00F272E7 /* MuseoUITests.swift in Sources */,
+				AB58E483207644C600F272E7 /* ObjectType+CoreDataClass.swift in Sources */,
+				AB58E47A207644C600F272E7 /* ArtPeriod+CoreDataProperties.swift in Sources */,
+				AB4C3B2C207E1B8900A2346E /* ObjectInfoResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB58E42E20761F8E00F272E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB58E41420761F8D00F272E7 /* Museo */;
+			targetProxy = AB58E42D20761F8E00F272E7 /* PBXContainerItemProxy */;
+		};
+		AB58E43920761F8E00F272E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB58E41420761F8D00F272E7 /* Museo */;
+			targetProxy = AB58E43820761F8E00F272E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB58E41C20761F8D00F272E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB58E41D20761F8D00F272E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB58E42420761F8E00F272E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB58E42520761F8E00F272E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB58E43E20761F8E00F272E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB58E43F20761F8E00F272E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB58E44120761F8E00F272E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2CE12CAC9EE18B0E806ED3 /* Pods-Museo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM46T2UDQ;
+				INFOPLIST_FILE = Museo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teeluft.Museo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB58E44220761F8E00F272E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890EEC4BBEF40EE80190C2C5 /* Pods-Museo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM46T2UDQ;
+				INFOPLIST_FILE = Museo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teeluft.Museo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB58E44420761F8E00F272E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFDD56BC35F898850AF2227 /* Pods-MuseoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM46T2UDQ;
+				INFOPLIST_FILE = MuseoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teeluft.MuseoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museo.app/Museo";
+			};
+			name = Debug;
+		};
+		AB58E44520761F8E00F272E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D0505EC3F1A18E50CA4DB2 /* Pods-MuseoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM46T2UDQ;
+				INFOPLIST_FILE = MuseoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teeluft.MuseoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museo.app/Museo";
+			};
+			name = Release;
+		};
+		AB58E44720761F8E00F272E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM46T2UDQ;
+				INFOPLIST_FILE = MuseoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teeluft.MuseoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Museo;
+			};
+			name = Debug;
+		};
+		AB58E44820761F8E00F272E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM46T2UDQ;
+				INFOPLIST_FILE = MuseoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teeluft.MuseoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Museo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB58E41020761F8D00F272E7 /* Build configuration list for PBXProject "Museo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58E43E20761F8E00F272E7 /* Debug */,
+				AB58E43F20761F8E00F272E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58E44020761F8E00F272E7 /* Build configuration list for PBXNativeTarget "Museo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58E44120761F8E00F272E7 /* Debug */,
+				AB58E44220761F8E00F272E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58E44320761F8E00F272E7 /* Build configuration list for PBXNativeTarget "MuseoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58E44420761F8E00F272E7 /* Debug */,
+				AB58E44520761F8E00F272E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58E44620761F8E00F272E7 /* Build configuration list for PBXNativeTarget "MuseoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58E44720761F8E00F272E7 /* Debug */,
+				AB58E44820761F8E00F272E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB58E41F20761F8D00F272E7 /* Museo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB58E42020761F8D00F272E7 /* Museo.xcdatamodel */,
+			);
+			currentVersion = AB58E42020761F8D00F272E7 /* Museo.xcdatamodel */;
+			path = Museo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB58E40D20761F8D00F272E7 /* Project object */;
+}

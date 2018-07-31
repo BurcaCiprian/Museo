@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17D102" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ArtPeriod" representedClassName=".ArtPeriod" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MuseumObject" representedClassName=".MuseumObject" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="period" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="objecttotype" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="ObjectType" inverseName="typetoobject" inverseEntity="ObjectType" syncable="YES"/>
+    </entity>
+    <entity name="ObjectType" representedClassName=".ObjectType" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="typetoobject" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="MuseumObject" inverseName="objecttotype" inverseEntity="MuseumObject" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ArtPeriod" positionX="225" positionY="-213" width="128" height="103"/>
+        <element name="MuseumObject" positionX="-225" positionY="-180" width="128" height="135"/>
+        <element name="ObjectType" positionX="-36" positionY="54" width="128" height="90"/>
+    </elements>
+</model>
